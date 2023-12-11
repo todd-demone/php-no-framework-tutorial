@@ -1,0 +1,24 @@
+{
+    "name": "todd-demone/nofw.com",
+    "description": "My code from this tutorial: https://github.com/PatrickLouys/no-framework-tutorial/blob/master/02-composer.md",
+    "keywords": [
+        "php",
+        "tutorial"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Todd Demone",
+            "email": "me@example.com",
+            "role": "Creator / Main Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nofw\\": "src/"
+        }
+    }
+}
